@@ -1,0 +1,61 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+body{
+
+    background-color: black;
+}
+header{
+    color: white;
+    text-align: center;
+    margin-top: 16px;
+    font-size: 32px;
+    font-family: 'calibri';
+}
+.formu{
+ width: 400px;
+ background: #24303c;
+ padding: 30px;
+ margin: auto;
+ margin-top: 25px;
+ border-radius: 4px;
+ font-family:'calibri';
+ color: white;
+ margin-bottom: 16px;
+}
+.controls{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid red;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+.formu .button{
+    width: 100%;
+    background: red;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+table{
+    width: 100%;
+}
+table,th,td,tr{
+    border-bottom: 1px red solid;
+    border-collapse: collapse;
+    padding: 5px;
+    background: #24303c;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
